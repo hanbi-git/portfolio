@@ -1,0 +1,91 @@
+#content .title_area h2::before{
+    content: 'OVER-THE-COUNTER MEDICINE'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* 일반의약품 실제 본문 내용 */
+
+#content .content_area>p{
+    font-size: 2.22em;
+    font-weight: 600;
+    margin-bottom: 250px;
+    text-align: center;
+}
+#content .content_area>p::after{
+    content: url(../images/content2/arrow_down.svg);
+    display: block;
+    transform: scale(3);
+    width: 40px; height: 40px;
+    margin: 0 auto;
+    transition: all .3s ease-in-out;
+}
+#content .content_area>p:hover::after{
+    transform: scale(3) translateY(10px);
+}
+
+#content .content_area .pre_box{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 170px 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+#content .content_area li .pre_box::before{
+    display: block;
+    color: #ccc;
+    position: absolute;
+    top: 130px;
+    right: 440px;
+}
+#content .content_area li:nth-of-type(1) .pre_box::before{
+    top: -40px;
+    content: '01';
+}
+#content .content_area li:nth-of-type(2) .pre_box::before{
+    content: '02';
+}
+#content .content_area li:nth-of-type(3) .pre_box::before{
+    content: '03';
+}
+#content .content_area li:first-of-type .pre_box{
+    padding-top: 0;
+}
+#content .content_area li:nth-of-type(2) .pre_box img{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);
+}
+#content .content_area li img{
+    margin-left: 140px;
+
+}
+#content .content_area li div{
+    width: 600px;
+}
+#content .content_area li dl,#content .content_area li h3{
+    padding-left: 140px;
+}
+
+#content .content_area h3{
+    font-size: 1.56rem;
+    color: #0056b8;
+    margin-bottom: 50px;
+}
+#content .content_area dt{
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+#content .content_area dd{
+    margin-bottom: 30px;
+    font-size: .89rem;
+}

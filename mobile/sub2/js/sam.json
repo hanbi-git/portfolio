@@ -1,0 +1,16 @@
+{
+    "sam": [
+        {"Name":"스텐드로주","Image":"./images/content1/pre_drug01.jpg"},
+        {"Name":"테몰드캡슐","Type":36000,"Descript":"첫메이크업그대로롱래스팅파우더","Image":"./images/content1/pre_drug02.jpg"},
+        {"Name":"신풍겐타마이신황산염크림","Type":30000,"Descript":"리미티드 에디션Pink Perfection","Image":"./images/content1/pre_drug03.jpg"},
+        {"Name":"바로디핀정5mg","Type":30000,"Descript":"프렌치 버드™(French Bud™)의 생명력을 담은 순한 수분 케어","Image":"./images/content1/pre_drug04.jpg"},
+        {"Name":"암로발탄정10/160mg","Type":52000,"Descript":"피부 안색이 맑아지는 집중 케어 앰플","Image":"./images/content1/pre_drug05.jpg"},
+        {"Name":"이베라정150mg","Type":52000,"Descript":"미백, 주름개선, 자외선 차단 기능성 화장품","Image":"./images/content1/pre_drug06.jpg"},
+        {"Name":"하이탑핀정","Type":32000,"Descript":"자외선 차단 기능성 화장품핑크 톤업 SUN 베이스","Image":"./images/content1/pre_drug07.jpg"},
+        {"Name":"칸데암로정8/5mg","Type":42000,"Descript":"정샘물식 내추럴 스킨을 표현해주는 데일리 쿠션 파운데이션","Image":"./images/content1/pre_drug08.jpg"},
+        {"Name":"린탁밤주4.5g","Type":42000,"Descript":"정샘물식 내추럴 스킨을 표현해주는 데일리 쿠션 파운데이션","Image":"./images/content1/pre_drug09.jpg"},
+        {"Name":"브라이 점안액","Type":42000,"Descript":"정샘물식 내추럴 스킨을 표현해주는 데일리 쿠션 파운데이션","Image":"./images/content1/pre_drug10.jpg"},
+        {"Name":"하이알원샷주","Type":"관절기능개선제","Descript":"슬관절의 골관절염","Image":"./images/content1/pre_drug11.jpg"},
+        {"Name":"에스넥졸정20mg","Type":42000,"Descript":"정샘물식 내추럴 스킨을 표현해주는 데일리 쿠션 파운데이션","Image":"images/content1/pre_drug12.jpg"}
+    ]
+}

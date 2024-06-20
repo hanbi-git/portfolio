@@ -1,0 +1,65 @@
+
+</div>
+        
+        </article>
+
+        <footer id="footerArea">
+            <a class="move_top" href="#" title="상단으로 이동하기">
+                <span class="material-symbols-rounded">
+                expand_less
+                </span>
+            </a>
+            <div class="footer_container">    
+                <div class="footer_top">
+                    <a class="footer_logo">신풍제약 하단로고</a>
+                    <div class="bottom_menu">
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                        </ul>
+                    </div>
+                    <div class="family">
+                        <a class="arrow" href="#">Family Site
+                            <span><i class="fa-solid fa-chevron-up"></i></span>
+                        </a>
+                        <ul class="aList">
+                            <li><a href="#" target="_blank" title="애드마일스 사이트 새 창으로 열기">애드마일스</a></li>
+                            <li><a href="#" target="_blank" title="피라맥스 사이트 새 창으로 열기">피라맥스</a></li>
+                            <li><a href="#" target="_blank" title="신풍제약 영문 홈페이지 새 창으로 열기">영문 홈페이지</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer_bottom">
+                    <div class="bottom_left">
+                        <address>
+                            본사 : 서울특별시 강남구 역삼로 161(역삼동, 신풍제약 사옥) <br>
+                            소비자상담전화 : 080-200-0101 (수신자부담, 상담가능시간: 평일 09시~18시 / 점심시간 제외)
+                        </address>
+                        <p class="copy">
+                            COPYRIGHT &copy; SHINPOONG.CO,.LTD ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                    
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#">인스타그램</a></li>
+                            <li><a href="#">유튜브</a></li>
+                            <li><a href="#">페이스북</a></li>
+                            <li><a href="#">트위터</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        
+        <script src="../../common/js/jquery-1.12.4.min.js"></script>
+        <script src="../../common/js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="../../common/js/jquery.easing.1.3.js"></script>
+        <script src="../../common/js/fullnav.js"></script>
+        <script src="../../common/js/select.js"></script>
+
+</body>
+</html>

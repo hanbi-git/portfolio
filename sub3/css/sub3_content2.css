@@ -1,0 +1,263 @@
+#content .title_area h2::before{
+    content: 'PIPELINE'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* R&D 스토리 실제 본문 내용 */
+
+#content .content_area{
+    width: 2000px;
+}
+
+
+#content .content_area>div{
+    width: 1200px;
+}
+#content .content_area h3{
+    font-size: 2.22em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#content .content_area p{
+    font-size: 1.11em;
+    text-align: center;
+    font-weight: 500;
+    line-height: 30px;
+}
+#content .content_area p b{
+    color: #0056b8;
+}
+#content .content_area .text{
+    position: relative;
+    z-index: 20;
+    padding: 30px;
+    display: none;
+}
+#content .content_area ol li:hover .text{
+    display: block;
+}
+#content .content_area .pipe_step .text h4{
+    width: 191px; height: 281px;
+    color: #5FE3F5;
+    position: absolute;
+    top: 125px;
+    left: 20%;
+    transform: translate(-50% 50%);
+}
+#content .content_area .pipe_step .text p{
+    width: 160px;
+    height: 281px;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#content .content_area section{
+    margin: 100px 0;
+}
+#content .content_area .pipe_step{
+    background: url(../images/content2/pipe_back.svg) no-repeat 400px 200px;
+    margin: 100px 0 150px -800px;
+}
+#content .content_area .pipe_step h3{
+    color: #0056b8;
+}
+#content .content_area .pipe_step ol{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+#content .content_area .pipe_step li{
+    cursor: pointer;
+    background-color: #5FE3F5;
+    width: 191px;
+    height: 281px;
+    border-radius: 30px;
+    margin-right: 10px;
+    transition: all .4s ease-out;
+    overflow: hidden;
+    position: relative;
+}
+
+#content .content_area .pipe_step li span{
+    position: absolute;
+    left: 40%; top: 40%; transform: translate(-50% -50%);
+    color: #333;
+    font-family: montserrat;
+    font-size: 2.22em;
+    font-weight: 500;
+    text-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
+    transition: all .4s ease-out;
+}
+#content .content_area .pipe_step li:hover span{
+    font-size: 1em;
+    color: #999;
+    z-index: 20;
+    left: 50%; transform: translateX(-50%);
+    top: 30px;
+    text-shadow: none;
+}
+#content .content_area .pipe_step li:hover{
+    width: 398px;
+}
+#content .content_area .pipe_step li:nth-of-type(1){
+    background-image: url(../images/content2/pipe01.png);
+}
+#content .content_area .pipe_step li:nth-of-type(2){
+    background-image: url(../images/content2/pipe02.png);
+}
+#content .content_area .pipe_step li:nth-of-type(3){
+    background-image: url(../images/content2/pipe03.png);
+}
+#content .content_area .pipe_step li:nth-of-type(4){
+    background-image: url(../images/content2/pipe04.png);
+}
+#content .content_area .pipe_step li:nth-of-type(5){
+    background-image: url(../images/content2/pipe05.png);
+    margin: 0;
+}
+
+#content .content_area .pipe_step li::before{
+    content: '';
+    display: block;
+    width: 398px; height: 281px;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 10;
+    position: absolute;
+    opacity: 0;
+    transition: all .2s ease-out;
+}
+#content .content_area .pipe_step li:hover::before{
+    opacity: 1;
+}
+
+#content .content_area .pipe_table{
+    width: 1200px;
+    margin-bottom: 350px;
+}
+#content .content_area .pipe_table h3{
+    text-align: left;
+    margin-bottom: 30px;
+}
+#content .content_area .pipe_table .type{
+    display: flex;
+    margin: 50px 0 30px 0;
+    justify-content: center;
+}
+#content .content_area .pipe_table .type li{
+    margin: 10px 30px;
+    position: relative;
+    font-weight: 500;
+}
+#content .content_area .pipe_table .type li::before{
+    content: '';
+    display: block;
+    width: 20px; height: 20px;
+    position: absolute;
+    left: -30px; top: 20%;
+}
+#content .content_area .pipe_table .type li:nth-of-type(1)::before{
+    background-color: #0056b8;
+}
+#content .content_area .pipe_table .type li:nth-of-type(2)::before{
+    background-color: #5FE3F5;
+}
+#content .content_area .pipe_table .type li:nth-of-type(3)::before{
+    background-color: #00AB51;
+}
+#content .content_area .pipe_table .type li:nth-of-type(4)::before{
+    background-color: #CEF470;
+}
+#content .content_area .pipe_table ol{
+    display: flex;
+    position: relative;
+}
+#content .content_area .pipe_table ol h4{
+    text-align: center;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    width: 100%; height: 60px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    
+}
+
+#content .content_area .pipe_table ol ul li{
+    position: relative;
+    border-radius: 20px;
+    width: 225px; height: 225px;
+    margin: 0 20px 20px 0;
+}
+#content .content_area .pipe_table ol li:nth-of-type(5) ul li{
+    margin-right: 0;
+}
+#content .content_area .pipe_table ol ul .type01{
+    background-color: #0056b8;
+}
+#content .content_area .pipe_table ol ul .type02{
+    background-color: #00AB51;
+}
+#content .content_area .pipe_table ol ul .type03{
+    background-color: #CEF470;
+}
+#content .content_area .pipe_table ol ul .type04{
+    background-color: #5FE3F5;
+}
+#content .content_area .pipe_table ol .type05{
+    position: absolute;
+    bottom: -225px;
+    width: 1200px; height: 225px;
+    margin: 0 auto;
+    display: block;
+    background-color: #D9F5FB;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#content .content_area .pipe_table ol .type05 p,
+#content .content_area .pipe_table ol .type05 span{
+    color: #333;
+}
+#content .content_area .pipe_table ol .type05 span{
+    margin-top: 10px; 
+    display: block;
+}
+
+#content .content_area .pipe_table ol ul .type03 p,
+#content .content_area .pipe_table ol ul .type04 p,
+#content .content_area .pipe_table ol ul .type03 span,
+#content .content_area .pipe_table ol ul .type04 span{
+    color: #333;
+}
+#content .content_area .pipe_table ol li p{
+    font-size: 1.33em;
+    color: #fff;
+    text-align: left;
+    padding: 30px 0 0 20px;
+}
+#content .content_area .pipe_table ol li span{
+    font-size: 1.11em;
+    color: #fff;
+    padding: 15px 0 0 20px;
+    display: block;
+}
+#content .content_area .pipe_table ol li li{
+    position: relative;
+}
+#content .content_area .pipe_table ol li .material-symbols-rounded{
+    position: absolute;
+    bottom: 20px; right: 20px;
+    font-size: 2em;
+}

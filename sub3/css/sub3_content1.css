@@ -1,0 +1,203 @@
+#content .title_area h2::before{
+    content: 'R&D STORY'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* R&D 스토리 실제 본문 내용 */
+
+#content .content_area{
+    position: relative;
+}
+#content .content_area h3{
+    font-size: 2.22em;
+}
+#content .content_area .sec1 h3::after{
+    content: '';
+    display: block;
+    width: 1600px; height: 5px;
+    background-color: #ccc;
+    /* margin-left: -400px;
+    margin-top: 30px; */
+    margin: 30px 0 80px -400px;
+}
+#content .content_area div{
+    position: relative;
+}
+
+#content .content_area .sec1{
+    margin-bottom: 100px;
+}
+
+#content .content_area .sec1 .typo_box{
+    display: flex;
+    width: 4200px;
+    margin-top: 50px;
+    transform: translateX(-400px);
+}
+
+#content .content_area .sec1 .typo{
+    position: static;
+    left: -400px;
+    bottom: -140px;
+    color: #CEF470;
+    font-family: 'montserrat';
+    font-size: 4rem;
+    font-weight: 700;
+    width: 2100px;
+}
+
+#content .content_area div span{
+    font-size: 1.11em;
+    color: #999999;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    font-family: 'montserrat';
+}
+
+#content .content_area .container1{
+    overflow: hidden;
+}
+#content .content_area .text{
+    float: left;
+}
+#content .content_area .container1 h4{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #0056b8;
+    font-family: 'montserrat';
+}
+#content .content_area p{
+    text-align: justify;
+    width: 514px;
+    margin-bottom: 60px;
+}#content .content_area img{
+    float: right;
+}
+
+
+#content .content_area .sec2 h3{
+    right: -1000px;
+    position: relative;
+}
+#content .content_area .sec2 span{
+    left: 0;
+}
+
+#content .content_area .sec2{
+    width: 1200px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#content .content_area .sec2 h3::after{
+    content: '';
+    display: block;
+    width: 1600px; height: 5px;
+    background-color: #ccc;
+    margin-left: -400px;
+    margin: 30px 0 80px -1000px;
+}
+#content .content_area .sec2 h4{
+    text-align: center;
+    font-size: 1.33em;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    position: relative;
+    transition: all .3s ease-out;
+}
+#content .content_area .sec2 li:hover h4{
+    margin-top: 70px;
+}
+#content .content_area .sec2 li h4:before{
+    display: block;
+    position: absolute;
+    top: -120px;
+    margin-left:40px;
+    transform: scale(.4);
+    opacity: 0;
+    transition: all .3s ease-out;
+}
+#content .content_area .sec2 li:nth-of-type(1) h4:before{
+    content: url(../images/content1/rnd1.svg);
+    width: 150px; height: 150px;
+}
+#content .content_area .sec2 li:nth-of-type(2) h4:before{
+    content: url(../images/content1/rnd2.svg);
+    width: 150px; height: 150px;
+}
+#content .content_area .sec2 li:nth-of-type(3) h4:before{
+    content: url(../images/content1/rnd3.svg);
+    width: 150px; height: 150px;
+}
+#content .content_area .sec2 li:nth-of-type(4) h4:before{
+    content: url(../images/content1/rnd4.svg);
+    width: 150px; height: 150px;
+}
+#content .content_area .sec2 li:hover h4:before{
+    opacity: 1;
+}
+#content .content_area .sec2 h4::after{
+    content: '';
+    display: block;
+    width: 150px; height: 200px;
+    border-radius: 0 0 100px 100px;
+    background-color: #D9F5FB;
+    position: absolute;
+    z-index: -10;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top: -110px;
+    
+}
+#content .content_area .sec2 .rnd{
+    margin-top: -80px;
+    margin-bottom: 100px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+#content .content_area .sec2 .rnd::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #ccc;
+    width: 1600px; height: 5px;
+}
+#content .content_area .sec2 .rnd>li{
+    width: 300px;
+    height: 500px;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-collapse: collapse;
+}
+#content .content_area .sec2 .rnd>li:nth-of-type(1){
+    border-left: 2px solid #ccc;
+}
+#content .content_area .sec2 .rnd>li:nth-of-type(4){
+    border-right: 2px solid #ccc;
+}
+#content .content_area .sec2 .rnd ul{
+    list-style: disc;
+    list-style-position: outside;
+    position: absolute;
+    top: 250px;
+    width: 240px;
+
+}
+
+#content .content_area .sec2 .rnd ul li{
+    margin: 0 0 25px 10px;
+    
+}

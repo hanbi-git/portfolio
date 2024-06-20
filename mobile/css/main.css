@@ -1,0 +1,295 @@
+/* 메인 비주얼, 콘텐츠 */
+
+/* 비주얼 영역 */
+
+.visual .swiper-container img{
+    width: 100%;
+    height: auto;
+}
+
+.visual .swiper1 .swiper-slide{
+    background-position: center;
+    background-size: cover;
+}
+
+.visual .swiper1 .swiper-slide p{
+    position: absolute;
+    color: white;
+    left: 50%; transform: translateX(-50%); 
+    text-align: center;
+    width: 100%;
+}
+
+.visual .swiper1 .swiper-slide p:nth-of-type(1){
+    font-family: montserrat;
+    font-size: 1.71rem;
+    bottom: 50%;
+    font-weight: 700;
+}
+
+.visual .swiper1 .swiper-slide p:nth-of-type(2){
+    font-size: 1rem;
+    bottom: 43%;
+}
+
+.visual .swiper-pagination-bullet{
+    width: 50px; height: 3px;
+    border-radius: 0;
+}
+
+
+/* 본문 영역 */
+
+
+/* 기업소개 */
+
+#content h3{
+    font-family: montserrat;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+#content .info{
+    width: 100%;
+}
+
+#content .info p{
+    font-size: 1rem;
+    margin: 0 40px;
+    text-align: center;
+}
+
+#content .info img{
+    margin-top: 150px;
+    width: 100%;
+}
+
+#content .slide_wrap{
+    display: flex;
+    width: 1800px;
+    position: absolute;
+}
+
+#content .info .slide_wrap span{
+    font-size: 4.7em;
+    font-family: montserrat;
+    font-weight: 700;
+    color: #ccc;
+    display: block; width: 1000%;
+    margin: 30px 0;
+}
+
+#content .info a{
+    display: block;
+    text-align: center;
+    width: 20%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 50%;
+    padding: 10px 20px;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+
+
+/* 제품소개 */
+
+#content .products>p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#content .products .products_wrap{
+    width: 80%; height: 180px;
+    margin: 0 10%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+
+#content .products .products_text p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 5%;
+}
+#content .products ul li .products_text span{
+    font-size: 1rem;
+    padding: 3px 4%;
+    border-radius: 30px;
+    margin: 5px 0 5px 10px;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+
+
+#content .products ul li .text1 p{
+    color: #335176;
+}
+#content .products ul li .text1 span{
+    color: #335176;
+    border: 1px solid #335176;
+}
+
+
+#content .products ul li .text2 p{
+    color: #665389;
+}
+#content .products ul li .text2 span{
+    color: #665389;
+    border: 1px solid #665389;
+}
+
+
+#content .products ul li .text3 p{
+    color: #A14441;
+}
+#content .products ul li .text3 span{
+    color: #A14441;
+    border: 1px solid #A14441;
+}
+
+
+#content .products ul li .text4 p{
+    color: #A7724C;
+}
+#content .products ul li .text4 span{
+    color: #A7724C;
+    border: 1px solid #A7724C;
+}
+
+
+#content .products ul li .text5 p{
+    color: #5C7C50;
+}
+#content .products ul li .text5 span{
+    color: #5C7C50;
+    border: 1px solid #5C7C50;
+}
+
+
+
+#content .products .products_wrap ul li{
+    overflow: hidden;   
+}
+#content .products .products_wrap li .products_text{
+    width: 50%;
+    background-color: #fff; height: 100%;
+    float: left;
+}
+
+#content .products .products_wrap li img{
+    height: 180px;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* R&D */
+
+#content .rnd{
+    width: 100%;
+}
+
+#content .rnd p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#content .rnd ul{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content:center; gap: 10px;
+}
+
+#content .rnd ul li div{
+    border: 1px solid #0056b8;
+    border-radius: 15px;
+    width: 100%;
+    margin: 5%;
+}
+#content .rnd ul li{width: 25%; }
+#content .rnd ul li div{padding: 10px; box-sizing: border-box;}
+#content .rnd ul li img{
+    width: 100%;}
+
+#content .rnd ul li p{
+    font-size: 1.07rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+/* 인재채용 */
+
+#content .recru{
+    width: 100%;
+    height: auto;
+    background: url(../images/recru_back.png) center;
+    background-size: cover;
+}
+
+#content .recru h3{
+    padding-top: 50px;
+    color: #fff;
+}
+
+#content .recru h3+p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#content .recru p+p{
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#content .recru_btn{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+#content .recru a{
+    width: 60%;
+    margin: 50px 20%;
+    padding: 15px 0 30px;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.7rem;
+    position: relative;
+    box-shadow: inset 0px -8px 15px 2px rgba(0, 0, 0, .2);
+}
+#content .recru a::after{
+    content:'';
+    display: block;
+    position: absolute;
+    background-color: #ccc;
+    width: 135%; height: 2px;
+    left: 50%; bottom: 0;
+    transform: translateX(-50%);
+}
+
+#content .recru a span{
+    display: block;
+    color: #ccc;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+

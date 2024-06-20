@@ -1,0 +1,95 @@
+/* R&D스토리 영역 */
+
+#content h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* sec1 영역 */
+
+#content .sec1 .vision1{
+    width: 100%;
+    height: 400px;
+    background: url(../images/vision1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+#content .sec1 h4{
+    padding-top: 70px;
+    color: #fff;
+}
+
+/* sec1 dl 영역 */
+
+#content .sec1 dl{
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+    padding: 30px;
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    font-weight: 600;
+}
+
+#content .sec1 dt{
+    font-size: 1.5rem;
+    font-family: 'montserrat';
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#content .sec1 dd{
+    color: #999;
+}
+
+#content .sec1 dd:nth-of-type(1){
+    color: #999;
+    margin-bottom: 30px;
+}
+
+
+/* sec2 영역 */
+
+#content .sec2{
+    margin-bottom: 70px;
+}
+
+#content .sec2 li{
+    display: flex;
+    width: 90%;
+    margin: 20px 5%;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+/* sec2 dl 영역 */
+
+#content .sec2 li dl{
+    padding: 15px;
+    line-height: 1.5rem;
+}
+
+#content .sec2 li dt{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#content .sec2 li dd{
+    text-align: left;
+    color: #999;
+}
+
+/* img 영역 */
+
+#content .sec2 li img{
+    padding: 15px;
+    background-color: #D9F5FB;
+}

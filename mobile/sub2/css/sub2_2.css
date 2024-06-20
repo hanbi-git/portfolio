@@ -1,0 +1,150 @@
+/* 건강기능식품 영역 */
+
+#content .typo_wrap{
+    margin: 0 3% 50px;
+    position: relative;
+}
+
+#content .typo_wrap .circle{
+    width: 180px; height: 180px;
+    border: 2px dashed #D9F5FB;
+    position: absolute;
+    top: 20%;
+    right: -30px;
+    border-radius: 50%;
+    animation: circle 20s linear infinite normal running;
+    z-index: 0;
+}
+
+@keyframes circle{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+#content .typo_wrap .typo{
+    color: #0056b8;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+#content .typo_wrap p{
+    position: relative;
+    z-index: 20;
+    text-align: justify;
+}
+
+#content .typo_wrap p{
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#content .admiles_pro{
+    width: 100%;
+}
+
+#content .admiles_pro li{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#content .admiles_pro li h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#content .admiles_pro li img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* 제품명 css 영역 */
+
+#content .admiles_pro li:nth-of-type(1) h4{
+    color: #335176;
+}
+
+#content .admiles_pro li:nth-of-type(2) h4{
+    color: #665389;
+}
+
+#content .admiles_pro li:nth-of-type(3) h4{
+    color: #5C7C50;
+}
+
+#content .admiles_pro li:nth-of-type(4) h4{
+    color: #A14441;
+}
+
+#content .admiles_pro li:nth-of-type(5) h4{
+    color: #A7724C;
+}
+
+/* 전체 텍스트 박스 영역 */
+
+#content .admiles_pro li{
+    clear: both;
+}
+
+#content .admiles_pro li .text_box{
+    margin: 3%;
+}
+
+#content .admiles_pro li:nth-of-type(1) .text_box,
+#content .admiles_pro li:nth-of-type(3) .text_box,
+#content .admiles_pro li:nth-of-type(5) .text_box{
+    float: right;
+    text-align: right;
+}
+
+
+#content .admiles_pro li:nth-of-type(2) .text_box,
+#content .admiles_pro li:nth-of-type(4) .text_box{
+    text-align: left;
+    float: left;
+}
+
+/* 태그 css 영역 */
+
+#content .admiles_pro li .tag_box{
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+#content .admiles_pro li span{
+    border-radius: 30px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#content .admiles_pro li:nth-of-type(1) span{
+    border: 1px solid #335176;
+    color: #335176;
+}
+
+#content .admiles_pro li:nth-of-type(2) span{
+    border: 1px solid #665389;
+    color: #665389;
+}
+
+#content .admiles_pro li:nth-of-type(3) span{
+    border: 1px solid #5C7C50;
+    color: #5C7C50;
+}
+
+#content .admiles_pro li:nth-of-type(4) span{
+    border: 1px solid #A14441;
+    color: #A14441;
+}
+
+#content .admiles_pro li:nth-of-type(5) span{
+    border: 1px solid #A7724C;
+    color: #A7724C;
+}
+

@@ -1,0 +1,157 @@
+#content .title_area h2::before{
+    content: 'CORPORATE PHILIANTHROPY'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* con_container1 영역 */
+
+#content .content_area .content_container1{
+    width: 2000px;
+    margin: 0 0 200px -400px;
+}
+
+#content .content_area .content_container1 ul{
+    overflow: hidden;
+    width: 100%;
+}
+#content .content_area .content_container1 ul li{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+#content .content_area .content_container1 ul li::before{
+    width: 2000px; height: 480px;
+    content: '';
+    background-color: #eee;
+    display: block;
+    position: absolute;
+    bottom: 70px;
+    z-index: -10;
+}
+
+#content .content_area li .text{
+    width: 530px;
+    font-size: 1.33rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+#content .content_area .content_container1 ul li .img{
+    padding: 20px 0 20px 0;
+}
+#content .content_area .content_container1 ul li img{
+    width: 950px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+
+#content .content_area .content_container1 li:first-of-type img{
+    float: left;
+    width: 950px;
+}
+#content .content_area .content_container1 li:last-of-type img{
+    float: right;
+    width: 950px;
+}
+
+#content .content_area .content_container1 li .text{
+    float: right;
+    width: 530px;
+}
+
+#content .content_area .content_container1 li:first-of-type .text{
+    transform: translate(-400px, 220px);
+    margin: auto 0;
+}
+#content .content_area .content_container1 li:last-of-type .text{
+    transform: translate(-150px, 130px);
+    margin: auto 0;
+}
+#content .content_area .content_container1 li:last-of-type p:first-of-type{
+    margin-bottom: 30px;
+}
+
+
+/* con_container2 영역 */
+
+#content .content_area .content_container2{
+    width: 1200px;
+    margin-bottom: 200px;
+}
+#content .content_area .content_container2 span{
+    font-size: 6.66em;
+    font-family: montserrat;
+    line-height: .6;
+    font-weight: 600;
+}
+
+
+#content .content_area .content_container2 ul li{
+    overflow: hidden;
+    margin: 30px 0;
+}
+
+#content .content_area .content_container2 ul li p{
+    width: 650px;
+    border-radius: 40px;
+    line-height: 37px;
+    font-size: 1.33rem;
+}
+
+#content .content_area .content_container2 ul li img{
+    border-radius: 40px;
+    width: 420px;
+}
+
+
+#content .content_area .content_container2 ul li:nth-of-type(1) p{
+    background-color: #0056b8;
+    color: #fff;
+    float: left;
+    padding: 120px 50px;
+}
+#content .content_area .content_container2 ul li:nth-of-type(1) img{
+    float: right;
+}
+
+
+#content .content_area .content_container2 ul li:nth-of-type(2) p{
+    background-color: #00AB51;
+    color: #05321A;
+    float: right;
+    padding: 138px 50px;
+}
+#content .content_area .content_container2 ul li:nth-of-type(2) img{
+    float: left;
+}
+
+
+#content .content_area .content_container2 ul li:nth-of-type(3) p{
+    background-color: #5FE3F5;
+    color: #203F6D;
+    width: 1100px;
+    padding: 110px 50px;
+}
+
+
+#content .content_area .content_container2 ul li:nth-of-type(4) p{
+    background-color: #CEF470;
+    color: #05321A;
+    float: right;
+    padding: 100px 50px;
+}
+#content .content_area .content_container2 ul li:nth-of-type(4) img{
+    float: left;
+}
+

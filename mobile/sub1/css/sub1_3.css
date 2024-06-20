@@ -1,0 +1,54 @@
+/* 본사&연구소 map 영역 */
+
+#content .map_menu li h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#content .map_menu li>div{
+    width: 96%;
+    height: 350px;
+    margin: 0 2%;
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+
+#content .map_menu dl{
+    margin: 20px 0 20px 30px ;
+}
+
+#content .map_menu dl dt{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #0056b8;
+    margin-top: 10px;
+}
+
+#content .map_menu dl dd{
+    
+    color: #999;
+}
+
+#content .map_menu .contlist{
+    display: none;
+}
+
+#content .tab_menu{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#content .tab_menu li{
+    width: 100%;
+    display: block;
+}
+
+#content .tab_menu li a{
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    margin-top: 5px;
+}

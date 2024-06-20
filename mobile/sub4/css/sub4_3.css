@@ -1,0 +1,50 @@
+
+
+/* 본문 콘텐츠 영역 */
+
+#content h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#content .sec1>p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* sec1 영역 */
+
+#content .sec1 .benefit{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+#content .sec1 .benefit li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+    margin: 3% 1%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+#content .sec1 .benefit i{
+    font-size: 4rem;
+}
+
+#content .sec1 .benefit dl{
+    margin-top: 20px;
+    list-style: circle;
+}
+#content .sec1 .benefit dt{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #0056b8;
+    margin-bottom: 10px;
+}

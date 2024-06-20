@@ -1,0 +1,177 @@
+#content .title_area h2::before{
+    content: 'STOCK INFO'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* 주식정보 실제 본문 내용 */
+
+#content .content_area .stock_info{
+    width: 2000px;
+}
+#content .content_area .stock_info h3{
+    margin-bottom: 35px;
+    font-size: 1.78em;
+}
+
+#content .content_area .stock_info .summary{
+    width: 2000px;
+    height: 375px;
+    margin: 0 0 100px -400px;
+    border-top: 5px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+#content .content_area .stock_info .summary tr .info_name{
+    font-weight: 500;
+}
+#content .content_area .stock_info .summary td{
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1.33em;
+    text-align: center;
+    margin: 67px 0;
+}
+
+/* #content .content_area .stock_info .summary tr:first-child td:first-child{
+    width: 50%;
+    font-size: 7.11em;
+    font-weight: 600;
+    text-align: left;
+    border-right: 1px solid #999;
+}
+#content .content_area .stock_info .summary tr:first-child td:last-child{
+    color: #0056b8;
+}
+#content .content_area .stock_info .summary td:last-child{
+    font-size: 2.22em;
+    text-align: right;
+} */
+
+#content .content_area .stock_info .summary tr:first-child td:nth-child(2){
+    width: 600px;
+    font-size: 7.11em;
+    font-weight: 600;
+    text-align: left;
+}
+#content .content_area .stock_info .summary tr:first-child td:nth-child(3){
+    width: 300px;
+}
+#content .content_area .stock_info .summary tr:first-child td:nth-child(4){
+    width: 300px;
+}
+#content .content_area .stock_info .summary td:last-child{
+    font-size: 2.22em;
+    text-align: right;
+}
+#content .content_area .stock_info .summary tr:first-child td:nth-child(4){
+    font-size: 2.22em;
+    text-align: right;
+    color: #0056b8;
+}
+
+#content .content_area .stock_info .data{
+    width: 1200px;
+    border-top: 5px solid #ccc;
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+    padding-bottom: 40px;
+}
+#content .content_area .stock_info .data tr{
+    border-bottom: 1px solid #ddd;
+}
+#content .content_area .stock_info .data1{
+    float: left;
+    width: 600px; height: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#content .content_area .stock_info .data2{
+    float: left;
+    width: 600px; height: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#content .content_area .stock_info .data1 th{
+    width: 50%;
+}
+#content .content_area .stock_info .data1 td{
+    width: 50%;
+}
+#content .content_area .stock_info .data2 tr:nth-child(4) th{
+    width: 160px;
+
+}
+#content .content_area .stock_info .asterik{
+    color: #5FE3F5;
+}
+#content .content_area .stock_info .data>p{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+/* stock_info2 */
+
+#content .content_area .stock_info2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#content .content_area .stock_info2 ul li{
+    position: relative;
+}
+#content .content_area .stock_info2 ul li a::after{
+    content: '';
+    display: block;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background-color: #0056b8;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+#content .content_area .stock_info2 ul li:hover a::after{
+    opacity: 1;
+    bottom: 40px;
+}
+#content .content_area .stock_info2 ul li a{
+    padding: 5px 30px;
+}
+
+#content .content_area .stock_info2 table{
+    width: 1200px;
+    text-align: center;
+    border-collapse: collapse;
+    border-top: 5px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 30px 0 100px 0;
+}
+#content .content_area .stock_info2 table th,
+#content .content_area .stock_info2 table td{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+#content .content_area .stock_info2 table th{
+    font-size: 1.33rem;
+    background-color: #D9F5FB;
+}
+#content .content_area .stock_info2 table td{
+    font-size: 1.11em;
+}
+#content .content_area .stock_info2 table .up{
+    color: #eb2d2d;
+}
+#content .content_area .stock_info2 table .down{
+    color: #0056b8;
+}

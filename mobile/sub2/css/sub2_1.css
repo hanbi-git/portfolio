@@ -1,0 +1,53 @@
+/* text_box 영역 */
+
+#content .text_area{
+    width: 100%;
+    height: 155px;
+    background: url(https://acura747.mycafe24.com/mobile/sub2/css/../images/background.png) center no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+#content .text_box{
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: #fff;
+    line-height: 1.5rem;
+    text-align: center;
+    width: 85%;margin: 0 auto;
+    padding: 20px;
+}
+
+#content .text_box h4{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+#content  .products_wrap {
+    margin-bottom: 50px;
+}
+
+#content .products_wrap ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 2%;
+}
+
+#content .products_wrap ul li{
+    width: 48%;
+    border: 1px solid #ccc;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#content .products_wrap ul li p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 15px 0 20px;
+}
+.products_wrap img{width: 90%;}

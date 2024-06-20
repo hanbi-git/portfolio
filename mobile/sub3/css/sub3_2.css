@@ -1,0 +1,216 @@
+
+
+/* 본문 콘텐츠 영역 */
+
+#content h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* wrap1 영역 */
+
+#content .wrap1{
+    width: 90%;
+    margin: 5% 5% 30px 5%;
+    text-align: justify;
+}
+
+#content .wrap1 .img_area{
+    height: 150px;
+    background: url(../images/wrap1back.png) ;
+    background-size: cover;
+    border-radius: 20px;
+    /* box-shadow: 0 0 15px 2px rgba(0, 0, 0, .2); */
+}
+
+#content .wrap1 h4{
+    margin: 10px 0;
+    text-align: center;
+}
+
+#content .wrap1 b{
+    color: #0056b8;
+}
+
+/* 파이프라인 순서 영역 */
+
+.pipe_step{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/stepback.svg);
+    background-size: cover;
+    background-position: center ;
+    padding: 40px 0;
+}
+
+.pipe_step h4{
+    color: #fff;
+}
+
+.pipe_step ul li{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.pipe_step ul li img{
+    border-radius: 200px;
+    width: 70%;
+    filter: brightness(80%);
+}
+
+.pipe_step ul li:nth-of-type(1) img{
+    float: left;
+    transform: translateX(-30px);
+}
+.pipe_step ul li:nth-of-type(2) img{
+    float: right;
+    transform: translateX(30px);
+}
+.pipe_step ul li:nth-of-type(3) img{
+    float: left;
+    transform: translateX(-10px);
+}
+.pipe_step ul li:nth-of-type(4) img{
+    float: right;
+    transform: translateX(30px);
+}
+.pipe_step ul li:nth-of-type(5) img{
+    float: left;
+    transform: translateX(-20px);
+}
+
+.pipe_step ul li dl{
+    position: absolute;
+    color: #fff;
+    width: 140px;
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, .4);
+}
+
+.pipe_step ul li dl dt{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pipe_step ul li dl dt{
+    font-weight: 500;
+}
+
+.pipe_step ul li:nth-of-type(1) dl{
+    top: 140px;
+    right: 60px;
+}
+.pipe_step ul li:nth-of-type(2) dl{
+    top: 140px;
+    left: 70px;
+    text-align: right;
+}
+.pipe_step ul li:nth-of-type(3) dl{
+    top: 60px;
+    right: 50px;
+}
+.pipe_step ul li:nth-of-type(4) dl{
+    top: 140px;
+    left: 60px;
+    text-align: right;
+}
+.pipe_step ul li:nth-of-type(5) dl{
+    bottom: 100px;
+    right: 60px;
+}
+
+
+/* 파이프라인 테이블 영역 */
+
+.pipe_table{
+    overflow-x: scroll; margin-right:2%;
+    margin-bottom: 50px;
+}
+
+.pipe_table_wrap h4{
+    margin: 40px 0;
+}
+.pipe_table_wrap p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pipe_table_wrap ul{
+    display: flex;
+    width: 90%;
+    margin: 0 5% 20px 5%;
+    justify-content: space-evenly;
+}
+
+.pipe_table_wrap ul li{
+    display: flex;
+}
+
+.pipe_table_wrap ul li div{
+width: 15px; height: 15px;
+margin-top: 3px;
+}
+
+.pipe_table_wrap ul li span{
+    margin-left: 5px;
+}
+
+.pipe_table_wrap .type01{
+    background-color: #0056b8;
+}
+.pipe_table_wrap .type02{
+    background-color: #5FE3F5;
+}
+.pipe_table_wrap .type03{
+    background-color: #00AB51;
+}
+.pipe_table_wrap .type04{
+    background-color: #CEF470;
+}
+
+.pipe_table_wrap table{
+    border-collapse: collapse;
+    width: 640px;
+}
+
+.pipe_table th[scope="row"]{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    left:0;
+    background: #fff;
+}
+
+.pipe_table tr td{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    width: 80px; height: 80px;
+}
+
+.pipe_table .type01{
+    background-color: #0056b8;
+    color: #fff;
+}
+.pipe_table .type02{
+    background-color: #5FE3F5;
+    color: #333;
+}
+.pipe_table .type03{
+    background-color: #00AB51;
+    color: #fff;
+}
+.pipe_table .type04{
+    background-color: #CEF470;
+    color: #333;
+}

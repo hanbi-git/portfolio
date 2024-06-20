@@ -1,0 +1,48 @@
+
+/* wrap1 */
+
+#content h4{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #0056b8;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+#content .visual{
+    position: relative;
+}
+
+#content .visual img{
+    width: 100%;
+}
+
+#content .visual .ceo_name{
+    position: absolute;
+    top: 30%; left: 60px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#content .visual .ceo_name span{
+    display: block;
+}
+
+#content .visual .ceo_name span:nth-of-type(2){
+    letter-spacing: 7px;
+}
+
+#content .message{
+    width: 90%;
+    margin: 50px 5% 50px;
+}
+
+#content .message p{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+#content .message span{
+    text-align: right;
+    display: block;
+}

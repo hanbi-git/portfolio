@@ -1,0 +1,16 @@
+{
+    "sam": [
+        {"Name":"스텐드로주","Type":"발기부전치료제","Image":"./images/content1/pre_drug01.jpg","ImageBig":"pre_drug_big01.jpg","Use":"연령에 따라 이 약 0.05~0.15 ㎖를 음경해면체내에 직접주사를 합니다."},
+        {"Name":"테몰드캡슐","Type":"항암제","Image":"./images/content1/pre_drug02.jpg","ImageBig":"pre_drug_big02.jpg","Use":"새로이 진단된 다형성 교아종의 경우 초기에는 방사선 치료와 병용하여 이 약을 투여하며,이 후 이 약을 6주기까지 반복 단독 투여할 수 있습니다."},
+        {"Name":"신풍겐타마이신황산염크림","Type":"염증치료제","Image":"./images/content1/pre_drug03.jpg","ImageBig":"pre_drug_big03.jpg","Use":"1일 1~4회 환부에 바르고 부드럽게 문지릅니다. 필요시 거즈를 덮을 수 있습니다.전염성 농가진인 경우에는 이 약과 감염부위와의 접촉을 최대한으로 하기 위하여 가피(부스럼, 딱지)를 제거한 후 바르는 것이 바람직합니다."},
+        {"Name":"바로디핀정5mg","Type":"고혈압부정맥치료제","Image":"./images/content1/pre_drug04.jpg","ImageBig":"pre_drug_big04.jpg","Use":"암로디핀으로서 1일 1회 5㎎을 경구투여하며 환자의 반응에 따라 1일 최고 10㎎까지 증량할 수 있습니다.연령, 증상에 따라 적절히 증감합니다."},
+        {"Name":"암로발탄정10/160mg","Type":"점안액","Image":"./images/content1/pre_drug05.jpg","ImageBig":"pre_drug_big05.jpg","Use":"이 약의 권장용량은 1일 1회 1정으로, 식사와 관계없이 물과 함께 복용합니다.가능하면 매일 같은 시간(예 : 아침)에 복용할 것이 권장됩니다."},
+        {"Name":"이베라정150mg","Type":"순환기용제","Image":"./images/content1/pre_drug06.jpg","ImageBig":"pre_drug_big06.jpg","Use":"이르베사르탄으로서 1일 1회 150 mg을 경구투여하며, 효과가 충분하지 않을 경우 300 mg까지 증량할 수 있습니다."},
+        {"Name":"하이탑핀정","Type":"고혈압부정맥치료제","Image":"./images/content1/pre_drug07.jpg","ImageBig":"pre_drug_big07.jpg","Use":"에스암로디핀으로서 1일 1회 2.5mg을 경구투여하며 환자의 반응에 따라 1일 최대 5mg까지 증량할 수 있습니다.증상에 따라 적절히 증감합니다."},
+        {"Name":"칸데암로정8/5mg","Type":"고혈압부정맥치료제","Image":"./images/content1/pre_drug08.jpg","ImageBig":"pre_drug_big08.jpg","Use":"이 약의 권장용량은 1일 1회 1정으로, 식사와 관계없이 물과 함께 복용합니다.가능하면 매일 같은 시간(예: 아침)에 복용하는 것이 권장됩니다."},
+        {"Name":"린탁밤주4.5g","Type":"전문의약품","Image":"./images/content1/pre_drug09.jpg","ImageBig":"pre_drug_big09.jpg","Use":"통상 4.5 g을 8시간마다 1일 3회 투여합니다.감염정도 및 감염부위에 따라 증감합니다.1일 18 g까지 증량할 수 있습니다."},
+        {"Name":"브라이 점안액","Type":"안과용제","Image":"./images/content1/pre_drug10.jpg","ImageBig":"pre_drug_big10.jpg","Use":"1회 2~3방울 1일 5~6회 점안하십시오."},
+        {"Name":"하이알원샷주","Type":"관절기능개선제","Image":"./images/content1/pre_drug11.jpg","ImageBig":"pre_drug_big11.jpg","Use":"1회, 1관을 슬관절강 내에 투여하나, 증상에 따라 투여 간격(6개월 이상)을 고려하여 적절히 투여합니다."},
+        {"Name":"에스넥졸정20mg","Type":"소화기용제","Image":"images/content1/pre_drug12.jpg","ImageBig":"pre_drug_big12.jpg","Use":"미란성 역류식도염의 치료 : 4주동안 1일 1회, 1회 40 mg을 투여합니다.식도염이 치료되지 않거나 증상이 계속되는 환자의 경우 4주 더 복용합니다."}
+    ]
+}

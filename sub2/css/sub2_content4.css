@@ -1,0 +1,163 @@
+#content .title_area h2::before{
+    content: 'DRUG SAFETY EVALUATION'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* 의약품 안정성평가 실제 본문 내용 */
+#content .content_area{
+    width: 1200px;
+}
+
+#content .content_area h3{
+    font-size: 2.22em;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+#content .content_area>p{
+    margin-bottom: 100px;
+    font-size: 1.33em;
+}
+
+#content .content_area .tab_menu1{
+    overflow: hidden;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #ccc;
+}
+#content .content_area .tab_menu1 li{
+    text-align: center;
+    width: 400px;
+}
+#content .content_area .tab_menu1 li::after{
+    width: 0;
+    transition: all .2s ease-out;
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #0056b8;
+}
+#content .content_area .tab_menu1 li:hover::after{
+    width: 400px;
+}
+#content .content_area .tab_menu1 a{
+    padding: 7px 0;
+    margin: 10px 0;
+    display: block;
+}
+
+#content .content_area .contlist{
+    display: none;
+}
+
+#content .content_area .download_btn1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+#content .content_area .download_btn1 li{
+    border-radius: 50px;
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    position: relative;
+    box-shadow: 1px 1px 5px 2px rgba(60, 60, 60, .1);
+    transition: all .3s ease-out;
+    overflow: hidden;
+}
+#content .content_area .download_btn1 li::after{
+    content: '';
+    display: block;
+    width: 70px; height: 200px;
+    background-color: rgba(235, 235, 255, .4);
+    /* mix-blend-mode: multiply; */
+    filter: blur(20px);
+    z-index: 10;
+    position: absolute;
+    top: -80px; left: -80px;
+    transform: skew(-45deg);
+    transition: all .3s ease-out;
+}
+#content .content_area .download_btn1 li:hover::after{
+    top: 50px; left: 200px;
+}
+#content .content_area .download_btn1 li:hover{
+    transform: scale(1.1);
+}
+#content .content_area .download_btn1 li:nth-of-type(5),
+#content .content_area .download_btn1 li:nth-of-type(10){
+    margin-right: 0;
+}
+#content .content_area .download_bt1 a{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#content .content_area .download_btn1 p{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 30px;
+}
+#content .content_area .download_btn1 .material-symbols-rounded{
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    bottom: 30px; left: 35%;
+    color: #0056b8;
+}
+
+/* 재평가 영역 */
+#content .content_area .download_btn2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+#content .content_area .download_btn2 li{
+    border-radius: 30px;
+    width: 500px;
+    height: 100px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    position: relative;
+    box-shadow: 1px 1px 5px 2px rgba(60, 60, 60, .1);
+    transition: all .3s ease-out;
+}
+#content .content_area .download_btn2 li:hover{
+    transform: scale(1.1);
+}
+#content .content_area .download_btn2 a{
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+#content .content_area .download_btn2 p{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#content .content_area .download_btn2 .material-symbols-rounded{
+    font-size: 3em;
+    text-align: center;
+    color: #0056b8;
+    margin-right: 30px;
+}

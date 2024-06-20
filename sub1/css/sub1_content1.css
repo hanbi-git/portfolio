@@ -1,0 +1,130 @@
+#content .title_area h2::before{
+    content: 'VISION';
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* 경영이념 실제 본문 내용 */
+#content .content_area{width: 1200px; margin: 0 auto;}
+#content .content_area h4{
+    font-size: 2.22rem;
+    font-weight: 500;
+    margin-bottom: 120px;
+    text-align: center;
+}
+#content .content_area ul{margin-bottom: 180px;}
+#content .content_area li{
+    overflow: hidden; 
+    margin-bottom: 80px;
+    position: relative;
+}
+#content .content_area .sub1_container1 li img{
+    float: left;
+}
+#content .content_area .sub1_container1 li:nth-of-type(2) img{
+    float: right;
+}
+#content .content_area .sub1_container1 li:nth-of-type(2) dl{
+    text-align: right;
+    margin-right: 50px;
+    float: right;
+}
+#content .content_area dl{
+    float: left;
+    overflow: hidden;
+    margin-left: 50px;
+}
+#content .content_area dl dt{
+    font-size: 2.13em;
+    font-weight: 500;
+    color: #0056b8;
+    margin-bottom: 30px;
+}
+#content .content_area dl dd{
+    text-align: justify;
+    width: 500px;
+    height: 140px;
+}
+#content .content_area dl dd::after{
+    content: ''; display: block;
+    width: 610px; height: 10px;
+    background-color: #5FE3F5;
+    position: absolute;
+    z-index: -10;
+    bottom: 40px;
+    transform: translateX(-55px);
+}
+#content .content_area li:nth-child(2) dl dd::after{
+
+    transform: translateX(-60px);
+}
+#content .content_area .sub1_container2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+#content .content_area .sub1_container2 li{
+    background-color: #fff;
+    width: 350px; height: 350px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, .1);
+    position: relative;
+    transition: all .2s ease-out;
+}
+#content .content_area .sub1_container2 li:hover{
+    background-color: #0056b8;
+}
+#content .content_area .sub1_container2 dl{
+    text-align: center;
+    margin-top: 100px;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+}
+#content .content_area .sub1_container2 dt{
+    font-size: 2rem;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    transition: all .2s ease-out;
+}
+#content .content_area .sub1_container2 li:hover dt{
+    font-size: 2rem;
+    position: absolute;
+    left: 110px;
+    top: -30px;
+    color: #5FE3F5
+}
+#content .content_area .sub1_container2 i{
+    display: block;
+    color: #5FE3F5;
+    font-size: 3em;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: all .2s ease-out;
+}
+#content .content_area .sub1_container2 li:hover i{
+    opacity: 0;
+}
+#content .content_area .sub1_container2 dd{
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    opacity: 0;
+    left: 75px;
+    top: 270px;
+    font-size: 1.1rem;
+    transition: all .2s ease-out;
+}
+#content .content_area .sub1_container2 li:hover dd{
+    opacity: 1;
+    top: 175px;
+    color: #fff;
+}
+#content .content_area .sub1_container2 dd::after{display: none;}

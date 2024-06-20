@@ -1,0 +1,466 @@
+@charset "utf-8";
+
+/* 비주얼 영역 */
+.visual{width: 2000px; height: 980px; overflow: hidden; position: relative; top: 0; left: 50%; transform: translateX(-50%); background-color: #869daa;}
+
+.gallery{position:relative;left:0; top:0; overflow:hidden; width:2000px; height:1000px;}
+.gallery li{display:none; position: relative;}
+
+.gallery img{animation: ani 30s linear infinite;}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+
+.gallery li span{position: absolute; left: 0; opacity: 0; 
+    font-size: 50px; color: #fff; text-align: center; width: 100%; display: block;}
+.gallery li span:nth-of-type(1){ 
+    font-size: 50px; color: #fff;  font-family: montserrat; font-weight: 800;  top: 390px;}
+.gallery li span:nth-of-type(2){ 
+    font-size: 36px; color: #fff;  font-weight: 500; top: 450px;}
+
+/* .gallery .link1 span{ left:  100px; top: 300px;} */
+
+.dock{width:330px; position:absolute; left:850px; bottom: 270px; padding: 10px 0;
+    display: flex; 
+    align-items: center;}
+
+.dock .mbutton{ margin-right:15px; cursor:pointer; 
+    display:block; float:left; width:100px; height:3px;
+   border:1px solid rgba(255, 255, 255, .7); border-radius:8px;
+  transition: all .5s}
+
+.dock .ps{ margin-right:15px; margin-top: -5px; cursor:pointer; 
+    display:block; position:absolute; top: 40px; left: 150px; width:25px; height:25px;
+    }
+.dock .ps i{font-size: 30px; color: rgba(255, 255, 255, 1);}   
+
+.visual .btn{display: block; width: 30px; height: 30px;
+        position: absolute;  top:150px;cursor:pointer; }
+.visual .btnLeft{left:50%; top: 700px; margin-left: -490px; background: url(../mainimages/prev.svg) no-repeat; text-indent: -1000%; overflow: hidden; color: #fff;}
+.visual .btnRight{left:50%; top: 700px; margin-left: 450px; background: url(../mainimages/next.svg) no-repeat; text-indent: -1000%; overflow: hidden; color: #fff;}    
+
+
+
+
+/* 본문 콘텐츠 영역 */
+#content{width: 1200px; margin: 0 auto;}
+
+#content section{
+    width: 2000px;
+    position: relative;
+    left: 50%; top: 0;
+    margin-left: -1000px;
+    margin-top: 100px;
+}
+section h3+p{
+    font-size: 1.33em;
+    font-weight: 500;
+    margin: 20px 0 60px;
+}
+#content .con_container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#content h3{
+    font-size: 3.33em;
+    font-family: Montserrat;
+    margin-top: 70px;
+
+}
+#content .joinus h3{
+    color: #fff;
+}
+#content .btn_more{
+    font-size: 1rem;
+    color: #999;
+    width: 150px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 15px;
+    overflow: hidden;
+    transition: all .2s;
+    backdrop-filter: blur(10px);
+}
+#content .btn_more:hover{
+    border: 2px solid #114798;
+    background-color: #114798;
+    color: #fff;
+}
+#content .btn_more span{
+    float: right;
+}
+
+/* 기업정보 영역 */
+
+#content .info{
+    height: 780px;
+    position: relative;
+    overflow: hidden;}
+#content .info h3{
+    line-height: 1.1em;
+    padding-top: 1px;
+}
+#content .info h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 570px;
+    top: 40px;
+    border-radius: 50px;
+    width: 100px; height: 100px;
+    background-color: #cef470;
+    z-index: -1;
+}
+#content .info_sec{
+    width: 490px; height: 430px;
+    float: right;
+    text-align: right;
+}
+#content .info img{
+    border-radius: 0 40px 40px 0;
+    position: absolute;
+    top: 20px; left: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+#content .info .btn_more{
+    position: absolute;
+    bottom: 250px; right: 400px;
+}
+#content .info .btn_more+span{
+    font-size: 7.2em;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-style: italic;
+    color: #eee;
+    position: absolute;
+    z-index: -10;
+    right: 0; bottom: 40px;
+}
+
+/* 제품정보 영역 */
+
+#content .products{
+    overflow: hidden; width: 1900px; margin-left: -950px;
+    background: url(../mainimages/product_back.svg) left bottom no-repeat;
+}
+#content .products h3{
+    margin-top: 80px;
+}
+#content .products h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 780px;
+    top: 50px;
+    border-radius: 50px;
+    width: 100px; height: 100px;
+    background-color: #5b97f0;
+    z-index: -1;
+}
+#content .products_box{
+   width: 3800px; display: flex; position: relative; left:0; 
+}
+#content .products ul{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+#content .products h3, #content .products p{
+    text-align: center;
+}
+#content .products ul li a{
+    width: 320px; height: 400px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 0 30px;
+    position: relative;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);  transition: all .2s;
+}
+#content .products ul li:hover a{ box-shadow: 0 0 20px 4px rgba(0,0,0,.5);}
+#content .products li{
+    transition: all .2s;
+}
+#content .products li:hover{
+    transform: scale(1.05);
+   
+}
+#content .products ul img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#content .products ul h4{
+    font-size: 1.33em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+#content .products .btn_more{
+    position: absolute;
+    right: 400px;
+    top: 155px;
+}
+
+#content .rnd{
+    margin-top: 100px;
+    position: relative;
+    width: 2000px;
+    height: 970px;
+}
+#content .rnd h3, #content .rnd p{
+    text-align: center;
+}
+#content .rnd h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 885px;
+    top: 40px;
+    border-radius: 50px;
+    width: 100px; height: 100px;
+    background-color: #7b8594;
+    z-index: -1;
+}
+#content .rnd ul{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    left: 50%; bottom: 110px;
+    transform: translateX(-50%);
+}
+#content .rnd li{
+    display: flex;
+    margin-right: 54px;
+    perspective: 2000px;
+}
+#content .rnd li:last-child{
+    margin-right: 0;
+}
+#content .rnd dl{
+    width: 270px;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+    transition: all .3s ease-out;
+    perspective: 800px;
+}
+#content .rnd li:hover dl{
+    background-color: #fff;
+    transform: rotateY(180deg);
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, .3);
+}
+#content .rnd li:hover dl dt{
+    color: #333;
+    font-weight: 700;
+    transform: translateY(-80px) rotateY(-180deg);
+}
+#content .rnd dt{
+    position: relative;
+    top: 150px;
+    font-size: 1.33em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+#content .rnd dt span{
+    display: block;
+    font-size: 3.5em;
+    opacity: 0;
+    color: #114798;
+    transition: all 0.2s ease-out;
+}
+#content .rnd li:hover dt span{
+    opacity: 1;
+}
+#content .rnd dd{
+    opacity: 0;
+    transition: all .3s ease-out;
+    position: relative;
+    top: 120px;
+    font-size: .89em;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+#content .rnd dl:hover dd{
+    opacity: 1;
+    color: #333;
+    transform: translateY(-40px) rotateY(-180deg);
+}
+/* #content .rnd dt::after{
+    content: "";
+    display: block;
+    width: 0; height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    transition: all .4s ease-out;
+}
+#content .rnd dl:hover dt::after{
+    width: 60px; height: 1px;
+    background-color: #999;
+} */
+#content .rnd .btn_more{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#content .rnd .rnd_back{
+    width: 2000px;
+    height: 570px;
+    position: absolute;
+    bottom: 0;
+    background: url(../mainimages/rnd.jpg) 0 0 no-repeat;
+    background-attachment: fixed;
+}
+
+/* 공지사항 영역 */
+#content .notice{
+    height: 910px;
+    background-color: #eeeeee;
+}
+#content .notice h3{
+    position: relative;
+    z-index: 1;
+}
+#content .notice h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 440px;
+    top: -30px;
+    border-radius: 50px;
+    width: 100px; height: 100px;
+    background-color: #00ab51;
+    z-index: -1;
+}
+#content .notice h3,#content .notice h3+p{
+    text-align: center;
+}
+#content .notice dt::after{
+    display: block;
+    content: "";
+    width: 70px; height: 20px;
+    background-color: #00ab51;
+    position: absolute;
+    right: 50px; bottom: 0;
+    transition: all .2s;
+}
+#content .notice dl:hover dt::after{
+    transform: scaleY(5);
+}
+#content .notice>ul{
+    position: relative;
+    left: auto;
+    top: 260px;
+}
+#content .notice p{
+    margin-bottom: 20px;
+}
+#content .notice dl span{
+    color: #999;
+}
+#content .notice .notice1{
+    width: 1200px;
+    height: 250px;
+    position:absolute;
+    top: 270px;
+}
+#content .notice .notice1 li{
+    float: left;
+}
+#content .notice .notice1 li:first-child{
+    margin-right: 50px;
+}
+#content .notice .notice2{
+    width: 1200px;
+    height: 250px;
+    position: absolute;
+    bottom: 100px;
+}
+#content .notice .notice2 li{
+    float: left;
+}
+#content .notice .notice2 li:first-child{
+    margin-right: 50px;
+}
+#content .notice dl{
+    position: relative;
+    width: 575px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all .2s ease-out;
+}
+#content .notice dl:hover{
+    border-radius: 0;
+}
+#content .notice dt{
+    font-size: 1.33em;
+    font-weight: bold;
+    margin: 40px;
+}
+#content .notice dd{
+    margin: 0 40px 0 40px ;
+}
+#content .notice .btn_more{
+    position: absolute;
+    top: 150px;
+    right: 400px;
+}
+#content .notice .btn_more:hover{
+    background-color: #666;
+    border: 2px solid #666;
+}
+
+/* 인재채용 영역 */
+
+#content .joinus{
+    height: 500px;
+    background-image: url(../mainimages/joinus.jpg);
+    margin-bottom: 100px;
+}
+#content .joinus h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -50px;
+    top: 40px;
+    border-radius: 50px;
+    width: 100px; height: 100px;
+    background-color: #cef470;
+    opacity: .3;
+    z-index: 10;
+    /* mix-blend-mode: screen; */
+}
+#content .joinus p{
+    color: #fff;
+}
+#content .joinus .con_container{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    overflow: visible;
+}
+#content .joinus .con_container .btn_more{
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all .2s ease-out;
+}
+#content .joinus .con_container .btn_more:hover{
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #fff;
+}

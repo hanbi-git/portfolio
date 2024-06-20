@@ -1,0 +1,312 @@
+#content .title_area h2::before{
+    content: 'HEALTH FUNCTIONAL FOOD'; 
+    position: absolute; 
+    display: block; 
+    width: 1200px; 
+    text-align: center; 
+    font-size: 2.4rem; 
+    font-family: Montserrat; 
+    font-size: 1.3rem;
+    font-weight: 300;
+    top: 90px; 
+    color: #5FE3F5;
+}
+
+/* 건강기능식품 실제 본문 내용 */
+
+#content .content_area h3{
+    text-align: left;
+    font-size: 2.5em;
+    position: relative;
+    left: 125px;
+    top: 120px;
+    font-family: 'montserrat';
+}
+#content .content_area h3::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 270px; height: 270px;
+    left: -70px;
+    top: -160px;
+    background-color: #5FE3F5;
+    transform: rotate(45deg);
+    z-index: -10;
+    border: 60px double white;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+#content .content_area .pbox{
+    position: relative;
+    top: 30px;
+    left: 610px;
+    margin-bottom: 150px;
+}
+#content .content_area .pbox p{
+    margin-bottom: 20px;
+    position: relative;
+    top: -50px;
+}
+#content .content_area .pbox p:nth-of-type(1){
+    color: #0056b8;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 70px;
+    position: relative;
+}
+#content .content_area .pbox p:nth-of-type(1)::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    background-color: #ccc;
+}
+
+#content .content_area .product{
+    width: 2000px;
+    position: relative;
+    /* overflow: hidden; */
+    margin-left: -400px;
+    margin-bottom: 150px;
+}
+
+#content .content_area .product .product_wrap{
+    position: relative;
+    width: 20000px; height: 500px;
+    overflow: hidden;
+}
+
+#content .content_area .product .product_conts{
+    float: left;
+}
+
+#content .content_area .arrow_box{
+    box-sizing: border-box;
+    width: 2000px; height: 500px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+#content .content_area .arrow_box a{
+    width: 50%;
+    height: 100%;
+}
+#content .content_area .arrow_box a:nth-of-type(1){
+    float: left;
+}
+#content .content_area .arrow_box a:nth-of-type(1):hover{
+    cursor:url(../images/content3/arrow_left.png) 64 64,auto;
+}
+
+#content .content_area .arrow_box a:nth-of-type(2){
+    float: right;
+}
+#content .content_area .arrow_box a:nth-of-type(2):hover{
+    cursor:url(../images/content3/arrow_right.png) 64 64,auto;
+}
+
+#content .content_area .product_container{
+    width: 2000px; height: 500px;
+    background-color: beige;
+    margin-bottom: 100px;
+    float: left;
+    position: relative;
+}
+#content .content_area .product_container:nth-of-type(1){
+    background-color: #BBD5F6;
+}
+#content .content_area .product_container:nth-of-type(2){
+    background-color: #DCCCF9;
+}
+#content .content_area .product_container:nth-of-type(3){
+    background-color: #F4DAD9;
+}
+#content .content_area .product_container:nth-of-type(4){
+    background-color: #F9F0D1;
+}
+#content .content_area .product_container:nth-of-type(5){
+    background-color: #D0DFCA;
+}
+
+#content .content_area .product_area{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+#content .content_area .product_area h4{
+    padding-top: 40px;
+    font-size: 3em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1.3;
+}
+#content .content_area .product_container:nth-of-type(1) h4{
+    color: #335176;
+}
+#content .content_area .product_container:nth-of-type(2) h4{
+    color: #665389;
+}
+#content .content_area .product_container:nth-of-type(3) h4{
+    color: #A14441;
+}
+#content .content_area .product_container:nth-of-type(4) h4{
+    color: #A7724C;
+}
+#content .content_area .product_container:nth-of-type(5) h4{
+    color: #5C7C50;
+}
+
+#content .content_area .product_container img{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#content .content_area .product_area .tag_box{
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+#content .content_area .product_container:nth-of-type(5) .tag_box{
+    top: 270px;
+}
+#content .content_area .product_area .tag_box p{
+    padding: 5px 10px;
+    /* background-color: #fff; */
+    text-align: center;
+    border-radius: 20px;
+    font-size: .89em;
+    margin-right: 10px;
+}
+#content .content_area .product_container:nth-of-type(1) .tag_box p{
+    border: 1px solid #335176;
+    color: #335176;
+}
+#content .content_area .product_container:nth-of-type(2) .tag_box p{
+    border: 1px solid #665389;
+    color: #665389;
+}
+#content .content_area .product_container:nth-of-type(3) .tag_box p{
+    border: 1px solid #A14441;
+    color: #A14441;
+}
+#content .content_area .product_container:nth-of-type(4) .tag_box p{
+    border: 1px solid #A7724C;
+    color: #A7724C;
+}
+#content .content_area .product_container:nth-of-type(5) .tag_box p{
+    border: 1px solid #5C7C50;
+    color: #5C7C50;
+}
+
+#content .content_area .product_container dl dt{
+    font-size: 1.33em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#content .content_area .product_container:nth-of-type(1) dl{
+    right: 100px;
+}
+#content .content_area .product_container dl{
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
+
+#content .content_area .product_container:nth-of-type(1) dt{
+    color: #335176;
+}
+#content .content_area .product_container:nth-of-type(2) dt{
+    color: #665389;
+}
+#content .content_area .product_container:nth-of-type(3) dt{
+    color: #A14441;
+}
+#content .content_area .product_container:nth-of-type(4) dt{
+    color: #A7724C;
+}
+#content .content_area .product_container:nth-of-type(5) dt{
+    color: #5C7C50;
+}
+#content .content_area .product_container dl dd{
+    padding-left: 20px;
+    position: relative;
+    color: #666;
+    margin-bottom: 5px;
+}
+#content .content_area .product_container dl dd::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0; top: 13px;
+    width: 5px; height: 5px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+#content .content_area .admiles_mall{
+    background-image: url(../images/content3/admiles_back.png);
+    /* backdrop-filter: blur(20px); */
+    width: 2000px;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#content .content_area .admiles_mall>div{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+#content .content_area .admiles_mall P{
+    color: #fff;
+    font-size: 2.22em;
+    font-weight: 500;
+}
+#content .content_area .admiles_mall a{
+    font-size: 1.56em;
+    display: flex;
+    background-color: #fff;
+    width: 435px; height: 39px;
+    padding: 20px 30px; 
+    border-radius: 50px;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+#content .content_area .admiles_mall span{
+    z-index: 10;
+    transition: all .4s ease-out;
+}
+#content .content_area .admiles_mall a:hover span{
+    color: #fff;
+}
+#content .content_area .admiles_mall a .material-symbols-rounded{
+    font-size: 1.56em;
+}
+
+#content .content_area .admiles_mall .color_box{
+    width: 495px;
+    height: 79px;
+    background-color: #0056b8;
+    position: absolute;
+    left: -495px; top: 0;
+    transition: all .4s ease-out;
+}
+#content .content_area .admiles_mall a:hover .color_box{
+    left: 0;
+}
