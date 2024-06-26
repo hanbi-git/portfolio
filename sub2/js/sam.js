@@ -54,7 +54,7 @@ $(function(){
                    txt += '</ul>';
 
                    $('.pop').html(txt);
-              
+
            };
            
            var newArray = [];
